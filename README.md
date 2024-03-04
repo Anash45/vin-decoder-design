@@ -27,7 +27,3 @@ VIN Decoder is a simple web application that allows users to input a Vehicle Ide
 ## Acknowledgements
 
 Special thanks to Bootstrap for providing an excellent framework for building responsive and modern web applications.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
