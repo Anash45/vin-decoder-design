@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIN-DECODER</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <main>
 
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VIN-DECODER</title>
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <main class="px-3 py-sm-5 py-4 d-flex flex-column justify-content-sm-start justify-content-between">
+            <section class="mt-5 pt-5 content d-flex flex-column align-items-center">
+                <div class="text-center header-content">
+                    <h1 class="header-text mb-0"><span class="fw-bold">VIN</span>-DECODER</h1>
+                    <p class="fw-medium mb-0">Paste the VIN to find out more details</p>
+                </div>
+                <form method="post" action="./results.html" class="home-inp-container">
+                    <input type="text" name="vin" required id="vin" class="form-control" placeholder="Enter VIN">
+                    <button>Decode</button>
+                </form>
+            </section>
+            <p class="mb-0 c-light mt-4 text-center">&copy; 2024 - vin_decoder - <span class="text-decoration-underline">Privacy</span></p>
+        </main>
+    </body>
+
 </html>
