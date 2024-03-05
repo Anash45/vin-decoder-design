@@ -21,8 +21,11 @@ VIN Decoder is a simple web application that allows users to input a Vehicle Ide
 - **Custom CSS:** Custom CSS styles are applied to enhance the visual appearance and ensure consistency with the dark theme.
 
 ## Screenshots
+### Homepage
+![Screenshot of VIN Decoder](https://anash45.github.io/vin-decoder-design/assets/screenshots/home-ss.png)
+### Details page
+![Screenshot of VIN Decoder](https://anash45.github.io/vin-decoder-design/assets/screenshots/results-ss.png)
 
-![Screenshot of VIN Decoder](screenshot.png)
 
 ## Acknowledgements
 
